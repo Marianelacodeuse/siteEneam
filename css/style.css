@@ -862,17 +862,6 @@ nav a {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* ================owl carousel================ */
 .owl-prev,
 .owl-next{
@@ -996,6 +985,43 @@ background-size: cover; /* cover pour dire qu'on veut que ça prenne toute la pa
 .content{
   text-align: center;
   font-size: 15px;
+}
+
+/* =============================Les directeurs====================== */
+.directeur{
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+.directeur img{
+  height: 85px !important;
+  width: 85px !important;
+  border-radius: 1000px;
+  margin: auto;
+}
+.directeur h4{
+  margin-top: 16px;
+}
+.directeur h4{
+  color: black;
+}
+.intro{
+  text-align: center;
+  margin-bottom: 5rem;
+  font-size: 3.5rem;
+  text-transform: capitalize;
+  color: #000;
+}
+.owl-dot.active span{
+  background-color: rgb(235, 0, 0) !important;
+}
+.owl-prev,
+.owl-next{
+  font-size: 15px !important;
+}
+#directeurs-slide .owl-next,
+#directeurs-slide .owl-prev{
+  background-color: rgb(235, 0, 0) !important;
 }
 
 /* ====================departement========================== */
